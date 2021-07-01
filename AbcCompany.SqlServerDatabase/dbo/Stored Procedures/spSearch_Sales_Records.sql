@@ -1,5 +1,5 @@
 ﻿CREATE PROCEDURE [dbo].[spSearch_Sales_Records]
-	@offset int,
+	@page int,
     @pageSize int,
     @countryCode char(3),
     @regionCode char(3),
@@ -11,6 +11,9 @@ BEGIN
         SET NOCOUNT ON
 
         BEGIN TRY
+
+        DECLARE @offset int;
+        SET @offset = (@page - 1) * @pageSize;
 
         SELECT s.Id, s.CustomerName, s.DateOfSale, s.Quantity, s.Total, p.ProductName, c.CityName, r.RegionName, co.CountryName
         FROM [dbo].[Master_SalesRecord] s

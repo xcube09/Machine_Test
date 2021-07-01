@@ -51,16 +51,13 @@ namespace AbcCompany.Core.Queries
 
                     var procedure = "[dbo].[spSearch_Sales_Records]";
                     var dapperResult = await _dbConnection
-                        .QueryMultipleAsync(procedure,
-                        new { offset = (query.Page - 1) * query.PageSize, pageSize = query.PageSize, countryCode = query.CountryCode, regionCode = query.RegionCode, cityCode = query.CityCode, dateOfSale = query.DateOfSale  }, 
-                        commandType: CommandType.StoredProcedure);
+                        .QueryMultipleAsync(procedure, query, commandType: CommandType.StoredProcedure);
 
                     var records = dapperResult.Read<SalesRecordDto>().AsList();
 
                     result.Data.AddRange(records);
 
                     result.TotalCount = dapperResult.ReadFirst<int>();
-                    //result.TotalCount = 500;
 
                     return result;
                 }
