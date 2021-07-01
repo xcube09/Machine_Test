@@ -49,7 +49,8 @@
                             <td data-bind="text: productName"></td>
                             <td data-bind="text: customerName"></td>
                             <td>
-
+                                <!-- ko text: cityName --><!-- /ko -->, <!-- ko text: regionName --><!-- /ko --><br />
+                                <!-- ko text: countryName --><!-- /ko -->
                             </td>
                             <td data-bind="text: moment(dateOfSale).format('DD/MM/YYYY')"></td>
                             <td data-bind="number: quantity, precision: 0"></td>

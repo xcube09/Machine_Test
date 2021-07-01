@@ -77,6 +77,9 @@ namespace AbcCompany.Core.Queries
         {
             public string ProductName { get; set; }
             public string CustomerName { get; set; }
+            public string CityName { get; set; }
+            public string RegionName { get; set; }
+            public string CountryName { get; set; }
             public DateTime DateOfSale { get; set; }
             public int Quantity { get; set; }
             public decimal Total { get; set; }

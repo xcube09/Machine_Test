@@ -12,7 +12,7 @@ BEGIN
 
         BEGIN TRY
 
-        SELECT s.Id, s.CustomerName, s.DateOfSale, s.Quantity, s.Total, p.ProductName, c.CityName
+        SELECT s.Id, s.CustomerName, s.DateOfSale, s.Quantity, s.Total, p.ProductName, c.CityName, r.RegionName, co.CountryName
         FROM [dbo].[Master_SalesRecord] s
         INNER JOIN [dbo].[Master_Product] p ON s.ProductID = p.ProductID
         INNER JOIN [dbo].[Master_City] c ON s.CityCode = c.CityCode
