@@ -1,0 +1,58 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "knockout@3.5.1",
+      "destination": "wwwroot/lib/knockout/"
+    },
+    {
+      "library": "knockout-validation@2.0.4",
+      "destination": "wwwroot/lib/knockout-validation/"
+    },
+    {
+      "library": "jquery.blockUI@2.70",
+      "destination": "wwwroot/lib/jquery.blockUI/"
+    },
+    {
+      "library": "bootstrap-datepicker@1.9.0",
+      "destination": "wwwroot/lib/bootstrap-datepicker/",
+      "files": [
+        "js/bootstrap-datepicker.min.js",
+        "css/bootstrap-datepicker3.standalone.min.css",
+        "css/bootstrap-datepicker3.standalone.css.map",
+        "css/bootstrap-datepicker3.standalone.css",
+        "css/bootstrap-datepicker3.min.css",
+        "css/bootstrap-datepicker3.css.map",
+        "css/bootstrap-datepicker3.css",
+        "css/bootstrap-datepicker.standalone.min.css",
+        "css/bootstrap-datepicker.standalone.css.map",
+        "css/bootstrap-datepicker.standalone.css",
+        "css/bootstrap-datepicker.min.css",
+        "css/bootstrap-datepicker.css.map",
+        "css/bootstrap-datepicker.css",
+        "js/bootstrap-datepicker.js"
+      ]
+    },
+    {
+      "library": "sweetalert@2.1.2",
+      "destination": "wwwroot/lib/sweetalert/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "sweetalert2@11.0.18",
+      "destination": "wwwroot/lib/sweetalert2/",
+      "files": [
+        "dist/sweetalert2.all.js",
+        "dist/sweetalert2.all.min.js"
+      ]
+    },
+    {
+      "library": "moment.js@2.29.1",
+      "destination": "wwwroot/lib/moment.js/",
+      "files": [
+        "moment.min.js"
+      ]
+    }
+  ]
+}

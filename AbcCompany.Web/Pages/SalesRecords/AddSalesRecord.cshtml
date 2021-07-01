@@ -1,0 +1,86 @@
+﻿@page
+@{
+    ViewData["Title"] = "AddSalesRecord";
+}
+
+
+
+<div id="form_container" class="container">
+
+    <h2>Add New Sales Record</h2>
+
+    <div class="row" data-bind="with: command">
+        <div class="col-md-5">
+
+            <div class="form-group">
+                <label>Customer Name</label>
+                <input type="text" class="form-control" data-bind="value: customerName" />
+            </div>
+
+            <div class="form-group">
+                <label>Product</label>
+                <select class="form-control" data-bind="options: $parent.productList, optionsText: 'productName', optionsValue: 'productID', optionsCaption: 'Select Product', value: productID"></select>
+            </div>
+
+            <div class="form-group">
+                <label>Quantity</label>
+                <input type="number" class="form-control" data-bind="value: quantity" />
+            </div>
+
+            <div class="form-group">
+                <label>Country</label>
+                <select class="form-control" data-bind="options: $parent.countriesList, optionsText: 'countryName', optionsValue: 'countryCode', optionsCaption: 'Select Country', value: selectedCountryCode"></select>
+            </div>
+
+            <div class="form-group">
+                <label>State/Region</label>
+                <select class="form-control" data-bind="options: $parent.regionsList, optionsText: 'regionName', optionsValue: 'regionCode', optionsCaption: 'Select Region', value: selectedRegionCode"></select>
+            </div>
+
+            <div class="form-group">
+                <label>City</label>
+                <select class="form-control" data-bind="options: $parent.citiesList, optionsText: 'cityName', optionsValue: 'cityCode', optionsCaption: 'Select City', value: cityCode"></select>
+            </div>
+
+            <div class="form-group">
+                <label>Date Of Sale</label>
+                <input type="text" class="form-control" readonly="readonly" data-bind="value: dateOfSale, datepicker: dateOfSale" />
+            </div>
+
+            <div class="mt-5">
+                <button class="btn btn-primary" data-bind="click: $parent.submit">Add Record</button>
+                <a class="btn btn-secondary" asp-page="/Index">Cancel</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+@section vendor_styles{
+    <link href="~/lib/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css" rel="stylesheet" />
+}
+
+
+@section vendor_scripts{
+    <script src="~/lib/knockout/knockout-latest.min.js"></script>
+    <script src="~/lib/knockout-validation/knockout.validation.min.js"></script>
+    <script src="~/lib/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+    <script src="~/lib/sweetalert2/dist/sweetalert2.all.min.js"></script>
+}
+
+
+@section page_scripts{
+    <script src="~/js/app/ko.extentions.js" asp-append-version="true"></script>
+    <script src="~/js/app/add-sales-record-view-model.js" asp-append-version="true"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            var viewModel = new AddSalesRecordViewModel();
+            ko.applyBindings(viewModel, document.getElementById('form_container'));
+
+        });
+    </script>
+}
