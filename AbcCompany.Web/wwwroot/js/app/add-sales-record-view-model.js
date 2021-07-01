@@ -5,7 +5,7 @@
 
     self.command = {
         customerName: ko.observable().extend({ required: true }),
-        cityCode: ko.observable().extend({ /*required: true, number: true*/ }),
+        cityCode: ko.observable().extend({ required: true, number: true }),
         dateOfSale: ko.observable().extend({ required: true }),
         productID: ko.observable().extend({ required: true }),
         quantity: ko.observable().extend({ required: true, number: true }),

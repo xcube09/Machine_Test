@@ -281,3 +281,11 @@ ClientConnectionId:73f6575b-8761-4e6d-9e96-6a0d7399bec7
 Error Number:10742,State:1,Class:15
 2021-07-01 17:01:51.604 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":2,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
 2021-07-01 17:01:51.705 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":2,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 17:05:30.568 +01:00 [INF] ----Starting up-----
+2021-07-01 17:05:34.581 +01:00 [INF] ABC Company Request: Query {"$type":"Query"}
+2021-07-01 17:05:35.051 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":2,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 17:05:38.580 +01:00 [WRN] ABC Company Long Running Request: Query (3860 milliseconds) {"$type":"Query"}
+2021-07-01 17:05:38.580 +01:00 [WRN] ABC Company Long Running Request: Query (3475 milliseconds) {"Page":1,"PageSize":2,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 17:15:03.521 +01:00 [INF] ABC Company Request: Query {"Page":2,"PageSize":2,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 17:15:08.199 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":2,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 17:15:11.446 +01:00 [INF] ABC Company Request: Query {"$type":"Query"}
