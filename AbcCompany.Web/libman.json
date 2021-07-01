@@ -33,11 +33,7 @@
         "css/bootstrap-datepicker.css",
         "js/bootstrap-datepicker.js"
       ]
-    },
-    {
-      "library": "sweetalert@2.1.2",
-      "destination": "wwwroot/lib/sweetalert/"
-    },
+    },  
     {
       "provider": "unpkg",
       "library": "sweetalert2@11.0.18",

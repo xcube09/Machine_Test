@@ -1,7 +1,7 @@
 ﻿var SalesRecordsViewModel = function () {
     var self = this;
 
-    self.pageSize = ko.observable(50);
+    self.pageSize = ko.observable(2);
     self.data = ko.observableArray([]);
     self.totalCount = ko.observable(0);
 
@@ -105,6 +105,8 @@
         self.searchQuery.regionCode(null);
         self.searchQuery.countryCode(null);
         self.searchQuery.dateOfSale(null);
+
+        self.search();
     }
 
 

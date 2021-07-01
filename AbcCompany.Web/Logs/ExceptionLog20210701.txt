@@ -11,3 +11,122 @@
 2021-07-01 15:43:36.074 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":50,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
 2021-07-01 15:43:36.808 +01:00 [WRN] ABC Company Long Running Request: Query (746 milliseconds) {"$type":"Query"}
 2021-07-01 15:43:36.961 +01:00 [WRN] ABC Company Long Running Request: Query (875 milliseconds) {"Page":1,"PageSize":50,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 16:21:23.708 +01:00 [INF] ----Starting up-----
+2021-07-01 16:21:25.561 +01:00 [INF] ABC Company Request: Query {"$type":"Query"}
+2021-07-01 16:21:25.817 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":1,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 16:21:26.638 +01:00 [WRN] ABC Company Long Running Request: Query (1008 milliseconds) {"$type":"Query"}
+2021-07-01 16:21:26.782 +01:00 [WRN] ABC Company Long Running Request: Query (958 milliseconds) {"Page":1,"PageSize":1,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 16:21:34.827 +01:00 [INF] ABC Company Request: Query {"Page":2,"PageSize":1,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 16:21:36.025 +01:00 [INF] ABC Company Request: Query {"Page":3,"PageSize":1,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 16:21:37.072 +01:00 [INF] ABC Company Request: Query {"Page":4,"PageSize":1,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 16:22:19.870 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":1,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":"2021-10-06T00:00:00.0000000","$type":"Query"}
+2021-07-01 16:22:19.979 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":1,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":"2021-10-06T00:00:00.0000000","$type":"Query"}
+2021-07-01 16:22:27.227 +01:00 [INF] ABC Company Request: Query {"Page":2,"PageSize":1,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":"2021-10-06T00:00:00.0000000","$type":"Query"}
+2021-07-01 16:22:28.975 +01:00 [INF] ABC Company Request: Query {"Page":3,"PageSize":1,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":"2021-10-06T00:00:00.0000000","$type":"Query"}
+2021-07-01 16:22:31.724 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":1,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":"2021-10-06T00:00:00.0000000","$type":"Query"}
+2021-07-01 16:23:36.669 +01:00 [INF] ----Starting up-----
+2021-07-01 16:23:41.013 +01:00 [INF] ABC Company Request: Query {"$type":"Query"}
+2021-07-01 16:23:41.243 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":1,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 16:23:41.710 +01:00 [WRN] ABC Company Long Running Request: Query (614 milliseconds) {"$type":"Query"}
+2021-07-01 16:23:41.818 +01:00 [WRN] ABC Company Long Running Request: Query (567 milliseconds) {"Page":1,"PageSize":1,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 16:23:48.487 +01:00 [INF] ABC Company Request: Query {"$type":"Query"}
+2021-07-01 16:23:48.499 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":2,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 16:23:54.771 +01:00 [INF] ABC Company Request: Query {"Page":2,"PageSize":2,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 16:23:57.890 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":2,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 16:24:20.122 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":2,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":"2021-03-07T00:00:00.0000000","$type":"Query"}
+2021-07-01 16:25:27.355 +01:00 [INF] ----Starting up-----
+2021-07-01 16:25:29.570 +01:00 [INF] ABC Company Request: Query {"CountryCode":"usa","$type":"Query"}
+2021-07-01 16:25:30.298 +01:00 [WRN] ABC Company Long Running Request: Query (673 milliseconds) {"CountryCode":"usa","$type":"Query"}
+2021-07-01 16:25:33.519 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":2,"CountryCode":"usa","RegionCode":null,"CityCode":null,"DateOfSale":"2021-03-07T00:00:00.0000000","$type":"Query"}
+2021-07-01 16:25:33.707 +01:00 [INF] ABC Company Request: Query {"Page":0,"PageSize":2,"CountryCode":"usa","RegionCode":null,"CityCode":null,"DateOfSale":"2021-03-07T00:00:00.0000000","$type":"Query"}
+2021-07-01 16:25:34.534 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): The offset specified in a OFFSET clause may not be negative.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Dapper.SqlMapper.GridReader.ReadDeferred[T](Int32 index, Func`2 deserializer, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.GridReader.cs:line 364
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.GridReader.ReadImpl[T](Type type, Boolean buffered) in /_/Dapper/SqlMapper.GridReader.cs:line 162
+   at Dapper.SqlMapper.GridReader.Read[T](Boolean buffered) in /_/Dapper/SqlMapper.GridReader.cs:line 64
+   at AbcCompany.Core.Queries.GetSalesRecords.Query.Handler.Handle(Query query, CancellationToken cancellationToken) in C:\Users\arion\Desktop\Interviews\Digital Avenues\AbcCompany\AbcCompany.Core\Queries\GetSalesRecords.cs:line 58
+   at AbcCompany.Core.Common.Behaviours.RequestPerformanceBehaviour`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in C:\Users\arion\Desktop\Interviews\Digital Avenues\AbcCompany\AbcCompany.Core\Common\Behaviours\RequestPerformanceBehaviour.cs:line 25
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at AbcCompany.Web.Controllers.SalesRecordsController.Search(Nullable`1 page, Nullable`1 pageSize, Query query) in C:\Users\arion\Desktop\Interviews\Digital Avenues\AbcCompany\AbcCompany.Web\Controllers\SalesRecordsController.cs:line 33
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:793f5279-680c-4ff0-84e9-a6b19b0d3020
+Error Number:10742,State:1,Class:15
+2021-07-01 16:26:14.678 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":2,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 16:26:14.833 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":2,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 16:26:56.006 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":2,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 16:26:56.024 +01:00 [INF] ABC Company Request: Query {"$type":"Query"}
+2021-07-01 16:27:00.338 +01:00 [INF] ABC Company Request: Query {"CountryCode":"usa","$type":"Query"}
+2021-07-01 16:27:01.786 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":2,"CountryCode":"usa","RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 16:27:01.849 +01:00 [INF] ABC Company Request: Query {"Page":0,"PageSize":2,"CountryCode":"usa","RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 16:27:01.867 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): The offset specified in a OFFSET clause may not be negative.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Dapper.SqlMapper.GridReader.ReadDeferred[T](Int32 index, Func`2 deserializer, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.GridReader.cs:line 364
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.GridReader.ReadImpl[T](Type type, Boolean buffered) in /_/Dapper/SqlMapper.GridReader.cs:line 162
+   at Dapper.SqlMapper.GridReader.Read[T](Boolean buffered) in /_/Dapper/SqlMapper.GridReader.cs:line 64
+   at AbcCompany.Core.Queries.GetSalesRecords.Query.Handler.Handle(Query query, CancellationToken cancellationToken) in C:\Users\arion\Desktop\Interviews\Digital Avenues\AbcCompany\AbcCompany.Core\Queries\GetSalesRecords.cs:line 58
+   at AbcCompany.Core.Common.Behaviours.RequestPerformanceBehaviour`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in C:\Users\arion\Desktop\Interviews\Digital Avenues\AbcCompany\AbcCompany.Core\Common\Behaviours\RequestPerformanceBehaviour.cs:line 25
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at AbcCompany.Web.Controllers.SalesRecordsController.Search(Nullable`1 page, Nullable`1 pageSize, Query query) in C:\Users\arion\Desktop\Interviews\Digital Avenues\AbcCompany\AbcCompany.Web\Controllers\SalesRecordsController.cs:line 33
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:1d22a195-2df3-4002-a1ba-d0a3f0d51cf6
+Error Number:10742,State:1,Class:15
+2021-07-01 16:27:04.229 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":2,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
+2021-07-01 16:27:04.272 +01:00 [INF] ABC Company Request: Query {"Page":1,"PageSize":2,"CountryCode":null,"RegionCode":null,"CityCode":null,"DateOfSale":null,"$type":"Query"}
