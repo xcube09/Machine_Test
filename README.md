@@ -1,4 +1,4 @@
-# Machine_Test
+# How To Setup
 
 In Order to test Application follow the steps below:
 
